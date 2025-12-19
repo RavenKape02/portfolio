@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.header-container {
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+}
+.main-container {
+    padding: 2rem;
+    flex:1;
+}
+.footer-container {
+    width: 100%; /* Changed from 98% to prevent horizontal scrolling */
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding doesn't add to width */
+}
+
+.footer-container span h5 {
+    margin:5px 0;
+}
